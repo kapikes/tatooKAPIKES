@@ -1,0 +1,1 @@
+<h1>Hola esto es GALERIA</h1>
