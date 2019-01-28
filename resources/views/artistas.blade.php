@@ -4,6 +4,10 @@
         
         @endsection
 
+        @section("artistas")
+        
+        @endsection
+
       
 
         @section("pie")

@@ -10,7 +10,7 @@
 	@yield("menu")
 
 	@include("plantilla.artistas")
-	<h1>lo que esta dentro de artistas</h1>
+	
 	@yield("artistas")
 
 	@include("plantilla.pie")
