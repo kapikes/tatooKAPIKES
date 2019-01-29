@@ -38,6 +38,18 @@ class miControlador extends Controller
     {
         return view("contacto");
     }
+    public function marina()
+    {
+        return view("marina");
+    }
+    public function carlos()
+    {
+        return view("carlos");
+    }
+    public function sofia()
+    {
+        return view("sofia");
+    }
 
     /**
      * Store a newly created resource in storage.

@@ -23,9 +23,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="http://tatookapikes.com/galeria">Galeria</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://tatookapikes.com/artistas">Artistas</a>
-                        </li>
+                        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Artistas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://tatookapikes.com/artistas/carlos">Carlos</a>
+          <a class="dropdown-item" href="http://tatookapikes.com/artistas/sofia">Sofia</a>
+          <a class="dropdown-item" href="http://tatookapikes.com/artistas/marina">Marina</a>
+        </div>
+      </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="http://tatookapikes.com/contacto">Contacto</a>

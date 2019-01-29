@@ -16,3 +16,6 @@ Route::get("/welcome", "miControlador@welcome");
 Route::get("/artistas", "miControlador@artistas");
 Route::get("/galeria", "miControlador@galeria");
 Route::get("/contacto", "miControlador@contacto");
+Route::get("/artistas/marina", "miControlador@marina");
+Route::get("/artistas/sofia", "miControlador@sofia");
+Route::get("/artistas/carlos", "miControlador@carlos");
