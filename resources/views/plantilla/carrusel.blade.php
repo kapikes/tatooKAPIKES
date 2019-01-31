@@ -7,6 +7,19 @@
 .carousel-inner{
  height: 650px;
 }
+.carrusel-caption{
+  background-color: rgb(41,23,1,0.75);
+  height: 100%;
+  left: 0;
+  top:0;
+  padding: 30px 45px;
+  text-align: left;
+  width: 340px;
+}
+.carrusel-caption p{
+  font-size: 26px;
+  line-height: 30px;
+}
 p{color:blue;
 }
 h5{
@@ -25,23 +38,31 @@ h5{
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="{{ asset('imagenes/sofia1.jpeg') }}" class="d-block w-100" alt="...">
+      
+      <!--le metemos cositas-->
       <div class="carousel-caption d-none d-md-block">
     <h5>SOFIA DELGADO GIL</h5>
     <p>La niña mas dormilona de Valladolid</p>
+    <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/sofia'">GALERIA SOFIA</button>
   </div>
+    
+
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('imagenes/sofia4.jpeg') }}" class="d-block w-100" alt="...">
+      <img src="{{ asset('imagenes/marina1.jpeg') }}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-    <h5>SOFIA DELGADO GIL</h5>
+    <h5>MARINA DELGADO GIL</h5>
     <p>la niña que le toca las narices a su padre</p>
+    <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/marina'">GALERIA MARINA</button>
+
   </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('imagenes/sofia8.jpeg') }}" class="d-block w-100" alt="...">
+      <img src="{{ asset('imagenes/carlos.jpg') }}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-    <h5>SOFIA DELGADO GIL</h5>
-    <p>La niña que es una pesada</p>
+    <h5>CARLOS DELGADO ALONSO</h5>
+    <p>El maestro de todo esto</p>
+    <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/carlos'">GALERIA CARLOS</button>
   </div>
     </div>
   </div>
