@@ -10,8 +10,8 @@
 }
 
  background-image: url('../equipo.jpg');
-        background-size: cover;
-        background-position: center center;
+ background-size: cover;
+ background-position: center center;
 
 
 *{
@@ -25,7 +25,7 @@
 }
 
 body{
-  background-image: url('../fondoContacto.jpg');
+  background-image: {{ asset('imagenes/woman.jpg') }}
     background-size: cover;
     background-position: center center;
     
