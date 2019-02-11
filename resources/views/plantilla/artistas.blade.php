@@ -1,5 +1,6 @@
         <style type="text/css">
-.card-body{height: 575px;
+.card-body{
+    height: 575px;
 }
 .redes-footer{
 	padding: 14px;
