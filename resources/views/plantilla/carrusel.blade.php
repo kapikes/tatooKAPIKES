@@ -42,7 +42,7 @@ h5{
       <!--le metemos cositas-->
       <div class="carousel-caption d-none d-md-block">
     <h5>SOFIA DELGADO GIL</h5>
-    <p>La niña mas dormilona de Valladolid</p>
+    <p>La niñas mas dormilona de Valladolid</p>
     <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/sofia'">GALERIA SOFIA</button>
   </div>
     

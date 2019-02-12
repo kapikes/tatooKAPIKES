@@ -34,9 +34,9 @@ a img{line-height:29px; }
         <div class="col-xs-12 col-md-6 text-right">
             <h6 class="text-muted lead">ENCUENTRANOS EN LAS REDES</h6>
             <div class="redes-footer">
-              <a href="https://www.facebook.com/"><img src="{{ asset('imagenes/facebook.png') }}"height:"29px" width="29px"></a>
-              <a href="https://twitter.com/"><img src="{{ asset('imagenes/twitter.png') }}"height:"29px" width="29px"></a>
-              <a href="https://www.youtube.com/"><img src="{{ asset('imagenes/youtube.png') }}"height:"29px" width="29px"></a>
+              <a href="https://www.facebook.com"><img src="{{ asset('imagenes/facebook.png') }}" height:29px; width=29px;></a>
+              <a href="https://twitter.com"><img src="{{ asset('imagenes/twitter.png') }}" height:29px; width=29px;></a>
+              <a href="https://www.youtube.com"><img src="{{ asset('imagenes/youtube.png') }}" height:29px; width=29px;></a>
             </div>
         </div>
     </div>
@@ -49,6 +49,6 @@ a img{line-height:29px; }
     </div>
 
     </div>
-  </div>  
-</div>
+    
+
 </footer>
