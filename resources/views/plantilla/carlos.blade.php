@@ -1,3 +1,9 @@
+ <style type="text/css">
+           p{
+            color:black;
+           }
+       </style>
+
 <header class="main-header">
             <!-- fondo que llevara la imagen que viene abajo -->
             <div class="background-overlay text-white py-5">

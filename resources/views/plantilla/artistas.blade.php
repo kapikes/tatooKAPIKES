@@ -38,7 +38,8 @@
                                 </p>
                    
                                 
-                                <a href="sofia.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">TRABAJOS</a>
+                                
+                                <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/sofia'">MI GALERIA</button>
 
                                 <!-- ENLACES SOCIALES -->
                                 <!-- contendidos centrados que serán iconos, espaciados con un padding de 4 -->
@@ -63,7 +64,7 @@
                                 <p>
                                     Autodidacta y polifacético que se inició en el mundillo del tatuaje. Tatuador con sello propio y gran versatilidad.  
                                 </p>
-                                <a href="carlos.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">TRABAJOS</a>
+                                <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/carlos'">MI GALERIA</button>
                                 <div class="d-flex flex-row justify-content-center">
             
             <div class="redes-footer">
@@ -83,7 +84,7 @@
                                 <img src="{{ asset('imagenes/marina4.jpeg') }}" class="img-fluid rounded-circle w-80 h-50">
                                 <h3>MARINA</h3>
                                 <p>Me encantaba dibujar, y siempre supe que me dedicaría a algo que tuviera que ver con el dibujo.  </p>
-                                <a href="marina.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">TRABAJOS</a>
+                                <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/marina'">MI GALERIA</button>
                                 <div class="d-flex flex-row justify-content-center">
             
             <div class="redes-footer">

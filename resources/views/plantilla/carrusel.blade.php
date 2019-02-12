@@ -1,4 +1,5 @@
 <style type="text/css">
+  
   .carousel-inner img {
     width: 100%;
     max-height: 650px;
@@ -30,23 +31,26 @@ h5{
 
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <!-- METEMOS UNA LISTA DE 3 FOTOS -->
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+  <!-- ESTA CLASE EN ESTILOS LE METEMOS UN ANCHO ESPECIFICO -->
   <div class="carousel-inner">
+    <!-- LA PRIMERA IMAGEN DEL CARRUSEL -->
     <div class="carousel-item active">
+      <!-- LA PRIMERA IMAGEN -->
       <img src="{{ asset('imagenes/sofia1.jpeg') }}" class="d-block w-100" alt="...">
       
-      <!--le metemos cositas-->
+      <!--LE METEMOS UN TEXTO Y BOTON, ADEMAS DE ESTAR CENTRADO Y CON COLOR-->
       <div class="carousel-caption d-none d-md-block">
-    <h5>SOFIA DELGADO GIL</h5>
-    <p>La niñas mas dormilona de Valladolid</p>
-    <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/sofia'">GALERIA SOFIA</button>
-  </div>
-    
-
+        <h5>SOFIA DELGADO GIL</h5>
+        <p>La niñas mas dormilona de Valladolid</p>
+        <!-- AL DAR AL BOTON TE LLEVA A OTRA PAGINA -->
+        <button type="button" class="btn btn-outline-primary" onclick="location.href='http://tatookapikes.com/artistas/sofia'">GALERIA SOFIA</button>
+      </div>
     </div>
     <div class="carousel-item">
       <img src="{{ asset('imagenes/marina1.jpeg') }}" class="d-block w-100" alt="...">
@@ -66,6 +70,7 @@ h5{
   </div>
     </div>
   </div>
+  
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Anterior</span>
